@@ -12,3 +12,4 @@ var firstName = "John"
 undefined
 var lastName = "Doe"
 undefined
+var fullName = firstName + " " + lastName
