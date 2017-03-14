@@ -14,3 +14,6 @@
 
 var numPassengers = 0
 numPassengers += 3
+
+var trainCapacity = 60
+var occupancy = numPassengers + " passengers present, with " + (trainCapacity - numPassengers) + " seats remaining."
