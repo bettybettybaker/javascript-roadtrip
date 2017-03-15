@@ -5,6 +5,11 @@
 // We’ve given you a starting variable to get the wheels turning.
 
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 var num = 10;
+
+while(num >= 1){
+	console.log(num);
+  num--;
+}
