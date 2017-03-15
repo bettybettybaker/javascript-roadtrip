@@ -6,10 +6,11 @@
 // Call your JavaScript file oldFaithful.js. Assume that your .js file is in
 // the same folder as your index.html file.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 <html>
   <head>
+    <script src="oldFaithful.js"></script>
   </head>
   <body>
     <h1>Welcome to the JavaScript Express!</h1>
