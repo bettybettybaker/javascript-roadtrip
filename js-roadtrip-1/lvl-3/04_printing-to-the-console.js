@@ -6,7 +6,9 @@
 
 // Average eruption height today: 145
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 var avgHeight = 145;
 var numEruptions = 4;
+
+console.log("Average eruption height today: " + avgHeight);
