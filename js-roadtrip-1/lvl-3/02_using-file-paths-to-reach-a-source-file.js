@@ -15,10 +15,11 @@
 //        oldFaithful.js
 
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 <html>
   <head>
+    <script src="../scripts/yellowstone/oldFaithful.js"></script>
   </head>
   <body>
     <h1>Welcome to the JavaScript Express!</h1>
