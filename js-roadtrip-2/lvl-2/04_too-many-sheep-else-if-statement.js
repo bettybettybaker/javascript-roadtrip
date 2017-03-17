@@ -19,16 +19,22 @@
 // the bottom or change any of the provided code.
 
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 var numSheep = 4;
 var monthsToPrint = 12;
 
 for (var monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++) {
 
-  <if statement goes here>
+  if (monthNumber % 4 == 0) {
+  	removeNumSheep =  numSheep * .75;
+    console.log("Removing " + removeNumSheep + " sheep from the population.");
+    numSheep = numSheep *= .25;
 
-  <else if statement goes here>
+  } else if (numSheep >= 10000) {
+  	numSheep = numSheep / 2;
+    console.log("Removing " + numSheep +  " sheep from the population." );
+  }
 
   numSheep *= 4;
   console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
