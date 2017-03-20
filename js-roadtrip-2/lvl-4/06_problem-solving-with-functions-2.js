@@ -34,4 +34,15 @@
 
 // Note: You do not need to call the function. Build the function declaration without invoking it.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
+
+function changePowerTotal(totalMW, currentGen, genStatus, currentMW){
+  if(genStatus == "on") {
+  	totalMW += currentMW;
+    alert("Generator #" + currentGen + " is now on, adding " + currentMW + " MW, for a total of " + totalMW + " MW!");
+  } else {
+  	totalMW -= currentMW;
+    alert("Generator #" + currentGen + " is now off, removing " + currentMW + " MW, for a total of " + totalMW + " MW!");
+  }
+  return totalMW;
+   }
