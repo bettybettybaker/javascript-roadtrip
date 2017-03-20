@@ -13,7 +13,7 @@
 
 // Note: You do not need any loops or conditionals to complete this challenge.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 var userAge = prompt("What's your age, user?");
-confirm("You entered " + userAge + ". Is this correct?");
+var ageIsCorrect = confirm("You entered " + userAge + ". Is this correct?");
