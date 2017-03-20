@@ -16,4 +16,4 @@
 > var eightiesMovies = [movie1, movie2];
 undefined
 
->
+> var infant = eightiesMovies[1][4]
