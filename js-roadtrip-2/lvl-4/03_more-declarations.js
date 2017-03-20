@@ -5,4 +5,14 @@
 // about the possibility of equality as well and return one of
 // the numbers.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
+
+function maxOf2(a, b) {
+  if (a > b){
+  return a;
+  } else if (a < b){
+  return b;
+  } else {
+  return a && b;
+  }
+}
