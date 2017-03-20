@@ -21,7 +21,12 @@
           // "What's your age, user?"
 
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 var userAge = prompt("What's your age, user?");
 var ageIsCorrect = false;
+
+while(ageIsCorrect == false){
+  confirm("You entered " + userAge + ". Is this correct?");
+
+}
