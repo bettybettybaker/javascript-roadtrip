@@ -6,4 +6,10 @@
 // You may use whatever parameter and variable names you’d like.
 
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
+
+function multiplyTrio(a, b, c){
+return a*b*c;
+}
+
+multiplyTrio(1, 2, 3);
