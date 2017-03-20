@@ -5,9 +5,9 @@
 // your values array and store the result in a variable
 // called bool.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 > var values = ["Jason", 4, true];
 undefined
 
->
+> var bool = values.pop()
