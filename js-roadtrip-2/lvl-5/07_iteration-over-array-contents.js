@@ -16,8 +16,14 @@
 // 4. Outside the for loop, return the count variable with
   //the total amount of strings found.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
 
 function numStrings(list) {
-
+  var count = 0;
+  for(var i = 0; i < list.length; i++){
+    if(typeof list[i] === "string"){
+    	count++;
+    }
+  }
+return count;
 }
