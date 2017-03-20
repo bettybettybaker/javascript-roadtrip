@@ -10,3 +10,5 @@
 // complete the challenge.
 
 ///////////////////////// PROBLEM /////////////////////////
+
+var userAge = prompt("What's your age, user?");
