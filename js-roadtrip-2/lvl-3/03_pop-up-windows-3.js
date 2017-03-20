@@ -16,3 +16,4 @@
 ///////////////////////// PROBLEM /////////////////////////
 
 var userAge = prompt("What's your age, user?");
+confirm("You entered " + userAge + ". Is this correct?");
