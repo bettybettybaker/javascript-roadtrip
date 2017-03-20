@@ -3,4 +3,6 @@
 // Call your multiplyTrio function from the console using the
 // numbers 8, 4, and 10.
 
-///////////////////////// PROBLEM /////////////////////////
+///////////////////////// SOLUTION /////////////////////////
+
+> multiplyTrip(8, 4, 10);
