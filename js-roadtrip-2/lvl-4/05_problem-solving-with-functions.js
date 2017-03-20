@@ -18,7 +18,9 @@
 
 ///////////////////////// SOLUTION /////////////////////////
 
-function feedPerRanger(    ) {
+function feedPerRanger(numSheep, numRangers) {
+	alert("Each Park Ranger should load " + (numSheep * 2 / numRangers) + " lbs of feed today.");
+}
 
 
 }
